@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="style.css"/>
+<title>Kaspa FAQ</title>
+</head>
+<body class="text">
+<section id="what-is-kaspa">
+<header>
+<h2>What is Kaspa? How is Kaspa different from other cryptocurrencies?</h2>
+</header>
+<p>Kaspa is a cryptocurrency similar to Bitcoin. It is public, decentralized, and permissionless. Its security model is based on Proof-of-Work.</p>
+<p>In Bitcoin, increasing transaction throughput negatively impacts its security. This sets an effective limit to the amount of transactions that Bitcoin can process per second. (The commonly quoted figure is 7 transaction/second.) Kaspa aims to improve over Bitcoin by replacing the blockchain with a blockDAG, which circumvents this issue altogether.</p>
+<p>Ori Newman, a Kaspa core developer, has written a pair of articles on <a href="https://someone235.medium.com/how-increasing-the-throughput-harms-bitcoins-security-76ed62313227">Bitcoin’s throughput/security dichotomy</a> and on <a href="https://someone235.medium.com/scaling-bitcoin-with-blockdag-d785174a3402">how DAGs avoid it.</a></p>
+</section>
+<section>
+<header>
+<h2 id="how-does-kaspa-work">How does Kaspa work?</h2>
+</header>
+<p>Kaspa is an implementation of the GHOSTDAG protocol, a greedy version of PHANTOM. Both protocols were originally authored by Yonatan Sompolinsky, and may be found <a href="https://eprint.iacr.org/2018/104">here.</a></p>
+<p>Ori Newman, a Kaspa core developer, has written an <a href="https://someone235.medium.com/scaling-bitcoin-with-blockdag-d785174a3402">in-depth article</a> exploring the PHANTOM protocol.</p>
+</section>
+<section>
+<header>
+<h2 id="whats-the-current-status-of-the-project">What’s the current status of the project?</h2>
+</header>
+<p>Kaspa Testnet has been launched on April 8th, 2021.</p>
+<p>The roadmap towards the Mainnet launch may be seen on <a href="https://github.com/kaspanet/kaspad/projects/4">Github.</a></p>
+</section>
+<section>
+<header>
+<h2 id="how-can-i-run-a-kaspa-node">How can I run a Kaspa node?</h2>
+</header>
+<p>The most straightforward way to run a Kaspa node is to download the <a href="https://github.com/kaspanet/kaspad/releases">latest binaries</a> of kaspad, the reference implementation of a Kaspa node. Once the binaries have been downloaded for your OS, simply run the kaspad executable.</p>
+</section>
+<section>
+<header>
+<h2 id="how-can-i-contribute">How can I contribute?</h2>
+</header>
+<p>Code contributions may be made to <a href="https://github.com/kaspanet/kaspad/">kaspad,</a> the repository for Kaspa’s main node.</p>
+<p>Documentation contributions may be made to <a href="https://github.com/kaspanet/docs/">the docs repository.</a></p>
+<p>For a list of good first issues please go <a href="https://github.com/kaspanet/kaspad/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">here.</a></p>
+</section>
+<section>
+<header>
+<h2 id="will-there-be-pre-mining">Will there be any pre-mining? What about founder’s rewards?</h2>
+</header>
+<p>There will be neither pre-mining nor founder’s rewards.</p>
+<p>The original Kaspa researchers and developers are funded by <a href="https://www.daglabs.com/">DAGlabs</a>, a for-profit organization whose business model centers around mining Kaspa and the ASICs required for it. DAGlabs will have the first-mover advantage as one of the first miners in the network.</p>
+<p>Yonatan Sompolinsky, DAGlabs’ founder, has written <a href="https://hashdag.medium.com/in-which-i-love-my-truly-truly-fair-60e74cbaaf7b">an article</a> on the matter.</p>
+</section>
+<section>
+<header>
+<h2 id="will-testnet-coins-be-transferred-over-to-mainnet">Will Testnet coins be transferred over to Mainnet?</h2>
+</header>
+<p>No. Testnet and Mainnet are entirely separate networks, each with its own blockDAG and its own rules. Also note that Testnet may be reset from time to time, which erases all existing coins in the process.</p>
+</section>
+<section>
+<header>
+<h2 id="when-will-mainnet-be-launched">When will Mainnet be launched?</h2>
+</header>
+<p>There isn’t a set date but it’s estimated that Mainnet will be launched in a year from the time of writing (9th of June, 2021).</p>
+</section>
+</body>
+</html>
